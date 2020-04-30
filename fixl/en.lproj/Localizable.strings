@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ fixl
+ 
+ Created by ptgms on 27.04.20.
+ Copyright © 2020 ptgms. All rights reserved.
+ */
+
+"warning" = "Warning!";
+
+"reset1" = "Resetting all Settings and restarting the App.";
+
+"ok" = "OK";
+"cancel" = "Cancel";
+
+"device" = "Device: ";
+"deviceuns" = " - UNSUPPORTED!";
+"version" = "Version: ";
+"build" = ", Build: ";
+
+"deviceIncomp" = "Your device is not compatible with this App. Please use a phone with a bigger screen for best experience.";
+

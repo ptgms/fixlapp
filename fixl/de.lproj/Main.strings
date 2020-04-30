@@ -1,0 +1,45 @@
+
+/* Class = "UITabBarController"; title = "Main"; ObjectID = "49e-Tb-3d3"; */
+"49e-Tb-3d3.title" = "Hauptbildschirm";
+
+/* Class = "UILabel"; text = "Hide flag"; ObjectID = "4Ye-Nt-9Ed"; */
+"4Ye-Nt-9Ed.text" = "Verstecke Flagge";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "4rd-xq-kVv"; */
+"4rd-xq-kVv.text" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Welcome."; ObjectID = "CCP-t2-dtg"; */
+"CCP-t2-dtg.text" = "Willkommen.";
+
+/* Class = "UIButton"; normalTitle = "Reset Settings"; ObjectID = "FB1-sr-5wr"; */
+"FB1-sr-5wr.normalTitle" = "Zurücksetzen";
+
+/* Class = "UILabel"; text = "Fixl"; ObjectID = "TNQ-sv-4wq"; */
+"TNQ-sv-4wq.text" = "Fixl";
+
+/* Class = "UITabBarItem"; title = "Main"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Hauptbildschirm";
+
+/* Class = "UILabel"; text = "A few taps here & there and you'll be done."; ObjectID = "b7c-yu-AuZ"; */
+"b7c-yu-AuZ.text" = "Ein paar Knöpfe hier & da und schon bist du fertig.";
+
+/* Class = "UILabel"; text = "NULL"; ObjectID = "cJO-Lq-3ru"; */
+"cJO-Lq-3ru.text" = "NULL";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Please pick your country."; ObjectID = "d4P-jo-JXN"; */
+"d4P-jo-JXN.text" = "Bitte wähle dein Land aus.";
+
+/* Class = "UILabel"; text = "00.00 E"; ObjectID = "m18-Wj-td9"; */
+"m18-Wj-td9.text" = "00.00 E";
+
+/* Class = "UIButton"; normalTitle = "Continue as NULL"; ObjectID = "toM-O4-ajq"; */
+"toM-O4-ajq.normalTitle" = "Fortfahren";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "uMT-ZT-LSv"; */
+"uMT-ZT-LSv.text" = "0";
+
+/* Class = "UILabel"; text = "Made by ptgms in 2020"; ObjectID = "xS3-BS-Z3w"; */
+"xS3-BS-Z3w.text" = "Gemacht von ptgms in 2020";
