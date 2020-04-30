@@ -7,3 +7,5 @@ This App is under active Development and some features are missing, glitchy or c
  - [SwipeableTabBarController](https://github.com/marcosgriselli/SwipeableTabBarController)
  
  - [SAConfettiView](https://github.com/sudeepag/SAConfettiView)
+
+Both are licensed under MIT license.
