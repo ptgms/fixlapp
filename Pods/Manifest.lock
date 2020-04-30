@@ -1,0 +1,20 @@
+PODS:
+  - SAConfettiView (0.1.8)
+  - SwipeableTabBarController (3.1.0)
+
+DEPENDENCIES:
+  - SAConfettiView
+  - SwipeableTabBarController
+
+SPEC REPOS:
+  trunk:
+    - SAConfettiView
+    - SwipeableTabBarController
+
+SPEC CHECKSUMS:
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SwipeableTabBarController: 49289d4be2af85732deeff88fcf2e6be8d45dd32
+
+PODFILE CHECKSUM: 8ded63eed7f970eb589e2071c02bea7322dcd410
+
+COCOAPODS: 1.9.1

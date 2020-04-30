@@ -1,0 +1,6 @@
+framework module Pods_fixl {
+  umbrella header "Pods-fixl-umbrella.h"
+
+  export *
+  module * { export * }
+}

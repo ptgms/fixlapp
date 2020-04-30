@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SAConfettiView
 
 class ViewControllerSetUp: UIViewController {
 
@@ -35,8 +36,19 @@ class ViewControllerSetUp: UIViewController {
         self.pickerBox.dataSource = self
         contButton.semanticContentAttribute = UIApplication.shared
             .userInterfaceLayoutDirection == .rightToLeft ? .forceLeftToRight : .forceRightToLeft
-
+        let date = Date()
+        let format = DateFormatter()
+        format.dateFormat = "MM-dd"
+        let formattedDate = format.string(from: date)
         
+        // its my birthday lets add confetti to the courtesy of https://github.com/sudeepag/SAConfettiView
+        if (formattedDate=="09-04") {
+            let confettiView = SAConfettiView(frame: self.view.bounds)
+            self.view.insertSubview(confettiView, belowSubview: self.view)
+            confettiView.isUserInteractionEnabled = false
+            confettiView.type = .Triangle
+            confettiView.startConfetti()
+        }
     }
     @IBAction func swiped(_ sender: UISwipeGestureRecognizer) {
         print("Swiped!")

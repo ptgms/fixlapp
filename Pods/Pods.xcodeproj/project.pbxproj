@@ -1,0 +1,1319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0172235B7D50BDE2FF799E81569FC656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		02BBBA6D553E67C1026B165B4BFF72AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		0BA05826C78A36A3D348440FF97BD3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		0F15C583AC48EA543C92AC2F369FAFC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		2042FCBE8513A47388956891FCBC3FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		2B09B44A046D5700C1BCBF4E4F237DFD /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005D103CDD651D0B2F1D80D6EFF7CE69 /* SAConfettiView-dummy.m */; };
+		314718876C281FAF353F545EC535F8F1 /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FABE0FCDDA69E7867F9DFEB9E6FEBDB /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CCC5C914C09629148F0A07CA4A1D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		48EAB01169E1E2F21FBA206888319CD9 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B64749C898EC209A80E0925E1D069 /* SwipeAnimationType.swift */; };
+		4CB189029E6C824F02161A3AD9ACFB65 /* Pods-fixlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E113DA9CD030AAB685B5119AFD4D427 /* Pods-fixlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		599E64DC5C1413BD9B9A47B23BD1CDBA /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821C639FAD195859AEC8BCCDDCC00C0 /* SwipeTransitionAnimator.swift */; };
+		5F70B73D82CEAB75E72FF7C46A630202 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68876546CDF5F69D7F06F6A1E4500 /* UIKit+Extensions.swift */; };
+		6516D3810E8DBE43B939C2B1A79E5514 /* Pods-fixlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F86BB1723803CC03259E8FD4D558F5 /* Pods-fixlTests-dummy.m */; };
+		65FE344CF109E88FA712681AAEEB7C75 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE4F00E96ED6D9E496971E8D28940DF /* diamond.png */; };
+		73FE0D24F7F81369FD6AAFB52058EFDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		8255E1C49ADE47D4E0469F1A55DE30C2 /* Pods-fixl-fixlUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0246A1DCD8E13F096345FD88B97650A /* Pods-fixl-fixlUITests-dummy.m */; };
+		8855A0B15EF99844D8E46609BA8B23C7 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533135206F1345D268E386E80C0909F /* SwipeInteractor.swift */; };
+		8BFB79A61072A8FCCA1207D3282F2606 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B24BB4FDAAEB4DB04F30719B981CF1 /* star.png */; };
+		9789B01750E99FB0756376671EF9FE1D /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A767A71E4036A0BAEB3B9AD09AB4430 /* SwipeableTabBarController.swift */; };
+		BAEBAD31DD47CC8BF99ED4766D7F2BC2 /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D304F987CE92105C00EF34A4F627DD6 /* SwipeTransitioningProtocol.swift */; };
+		BC82831E158BED1EAD6B2A5A322754C3 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE7A06D13A9BB59D4D23CA102081EE /* SAConfettiView.swift */; };
+		DC140E7D98CB2C000C5CBF5A844EF7E9 /* Pods-fixl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46599C68C79C8970FBB2D330369F5A1D /* Pods-fixl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6687AED2D90C11ABD347E79B615295 /* Pods-fixl-fixlUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D65591362284C1CC5218D8A825592549 /* Pods-fixl-fixlUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3348D74A7EC3F9236DFE576AE8CF92 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = F95C00BAEBCB72EC3325088F84287370 /* confetti.png */; };
+		E55265C877D73F6B1D022794340DC9D6 /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */; };
+		EAE9043176B9918CD3EFB6E0E0CA7524 /* Pods-fixl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C501CA53FDC64D82412796F608E3B /* Pods-fixl-dummy.m */; };
+		EAEDC21885FBB482FC6217CF5DFB25B3 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = ED83722DEF35A37581C0A799440BD0D1 /* triangle.png */; };
+		F6877147AD76F213C49FB9BB7AC02239 /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 752448D5F6477E9717143280A20BA7A7 /* SwipeableTabBarController-dummy.m */; };
+		F8617B911AE350986CD115D328EBD69C /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF9D8A4770346FF5C8595C7DC3133D0 /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31E55A8974CD60477042AB9F3FF88DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA499FCEDEBE8979ED4FEC6BCFAB1ABD;
+			remoteInfo = "Pods-fixl";
+		};
+		53154D5BB3C534B773B8523FC14DADF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD2985EC5826C32DE2E7CBE62FB81ED;
+			remoteInfo = SwipeableTabBarController;
+		};
+		A27AD697FC1C902B9C90216BDB407C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E488B4A8341D4A1374B44B7D0191BC4;
+			remoteInfo = "SAConfettiView-SAConfettiView";
+		};
+		BB6609CA2465D774D6E1691D4A2BA4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD2985EC5826C32DE2E7CBE62FB81ED;
+			remoteInfo = SwipeableTabBarController;
+		};
+		E954199A01014E026F70ACDE6E5420BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF5EC9A82178D0D695682390F2DE2F1;
+			remoteInfo = SAConfettiView;
+		};
+		F2BE555CD6A02068CFDF7DCE9EFE19B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF5EC9A82178D0D695682390F2DE2F1;
+			remoteInfo = SAConfettiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D103CDD651D0B2F1D80D6EFF7CE69 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		0533135206F1345D268E386E80C0909F /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
+		06DA5B499FEB55421849B4CCBCEB6020 /* Pods-fixlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fixlTests.modulemap"; sourceTree = "<group>"; };
+		132C501CA53FDC64D82412796F608E3B /* Pods-fixl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixl-dummy.m"; sourceTree = "<group>"; };
+		171251633B91C5726E0433D1C13A4150 /* Pods_fixl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fixl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A767A71E4036A0BAEB3B9AD09AB4430 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		1AB68876546CDF5F69D7F06F6A1E4500 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		218886EBD0936B6846AACA7EDFA32349 /* Pods-fixlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixlTests.release.xcconfig"; sourceTree = "<group>"; };
+		2419519A3CBDFDE5F3CD6F9BEFBB9A29 /* Pods-fixl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixl.debug.xcconfig"; sourceTree = "<group>"; };
+		2821C639FAD195859AEC8BCCDDCC00C0 /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/Classes/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
+		2D304F987CE92105C00EF34A4F627DD6 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
+		2FFC314EC9BF0FC7D1BDE3E34E6EE2ED /* SwipeableTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		3567B91538647D333AAC70171B5A0E1A /* Pods-fixl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixl.release.xcconfig"; sourceTree = "<group>"; };
+		3595B13205F0FE5761C13B998557EB4E /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		39CCAF62C4A7A04AB62904EA44C2008F /* SwipeableTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		3D7F5FF29D50C24874AE0014BAF6A6A0 /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		3D9F414A771FCF02063A50049992B98F /* Pods_fixl_fixlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fixl_fixlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46599C68C79C8970FBB2D330369F5A1D /* Pods-fixl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixl-umbrella.h"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB6A3B074EBF09F9A748BF35BFEC4FA /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
+		507EC71F97237BCA79933263B07DFC22 /* Pods-fixl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixl-acknowledgements.plist"; sourceTree = "<group>"; };
+		59B9FB2175B85C491A10302F6EA59DAC /* SwipeableTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeableTabBarController-Info.plist"; sourceTree = "<group>"; };
+		5E88032CF4EA7566DD540BC8786199CC /* Pods-fixl-fixlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixl-fixlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE4F00E96ED6D9E496971E8D28940DF /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		752448D5F6477E9717143280A20BA7A7 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
+		758E47356EA8EB56C0171D03AAEC8628 /* Pods-fixl-fixlUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fixl-fixlUITests.modulemap"; sourceTree = "<group>"; };
+		7B0D03EF76328D4997D77C175B7B8DBE /* Pods-fixl-fixlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixl-fixlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FABE0FCDDA69E7867F9DFEB9E6FEBDB /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		8BD0F96BC7DDA6E823320A4DEB16AF41 /* Pods-fixl-fixlUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixl-fixlUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EAD0E119AE94F4BCCEBE717B2229F26 /* SAConfettiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.release.xcconfig; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E113DA9CD030AAB685B5119AFD4D427 /* Pods-fixlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixlTests-umbrella.h"; sourceTree = "<group>"; };
+		9EF57543768A224F5FFA068F8D07FAB1 /* Pods-fixlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0246A1DCD8E13F096345FD88B97650A /* Pods-fixl-fixlUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixl-fixlUITests-dummy.m"; sourceTree = "<group>"; };
+		A07EF8079328F418F52F4BAECDCAC9C4 /* SAConfettiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.debug.xcconfig; sourceTree = "<group>"; };
+		A08C8BEC97FE6DF7A6476AA06531C59C /* Pods-fixlTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixlTests-Info.plist"; sourceTree = "<group>"; };
+		A2F86BB1723803CC03259E8FD4D558F5 /* Pods-fixlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixlTests-dummy.m"; sourceTree = "<group>"; };
+		AAA3E1CC444AAB7C9A422B8E5F9A48C9 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		AB5B64749C898EC209A80E0925E1D069 /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
+		ACDE7A06D13A9BB59D4D23CA102081EE /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
+		ADF705FFEF6AA0759E753C00068BAD9F /* Pods-fixl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fixl.modulemap"; sourceTree = "<group>"; };
+		AEF9D8A4770346FF5C8595C7DC3133D0 /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
+		B0B6E1D62A6433687A0EE6C4F44EBD28 /* Pods-fixl-fixlUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixl-fixlUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA931F2C279DA0E00322774FAE8E06A5 /* Pods-fixl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCF2A0F19099BCAFE5006DBBBD5505B2 /* Pods-fixl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixl-frameworks.sh"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D1F9BA61E2ABD9F480F6C0FE989282FA /* Pods-fixl-fixlUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixl-fixlUITests-Info.plist"; sourceTree = "<group>"; };
+		D536CBB287EC03949D36CD6DCA7A6862 /* Pods_fixlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fixlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65591362284C1CC5218D8A825592549 /* Pods-fixl-fixlUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixl-fixlUITests-umbrella.h"; sourceTree = "<group>"; };
+		E1DACAA3CD241B50FDD7A5F157271F14 /* Pods-fixl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixl-Info.plist"; sourceTree = "<group>"; };
+		E2B24BB4FDAAEB4DB04F30719B981CF1 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
+		E59A0ECE5EBE50A0565FAEAF30690B92 /* Pods-fixlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAConfettiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA8EBCC04279D0DB1BE34137064CBE6 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
+		ED83722DEF35A37581C0A799440BD0D1 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
+		F4DD5FCAE9718E6BB0C9B8E7DBDBEBEB /* Pods-fixl-fixlUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixl-fixlUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F95C00BAEBCB72EC3325088F84287370 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		FA7FD394E3F779766A861E751EDF58A1 /* SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		FAE6C519C2DEAF749CE480326E71F0AD /* Pods-fixlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixlTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029419137D4DC533291392F742B40C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0172235B7D50BDE2FF799E81569FC656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B81CDE76191C834662505FE81A34E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CCC5C914C09629148F0A07CA4A1D63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A34EB5AA5E6A5F6790F9DE580E6C031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FE0D24F7F81369FD6AAFB52058EFDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C960AE1FF7DAAA0835732B58EE448D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA05826C78A36A3D348440FF97BD3A6 /* Foundation.framework in Frameworks */,
+				02BBBA6D553E67C1026B165B4BFF72AA /* QuartzCore.framework in Frameworks */,
+				0F15C583AC48EA543C92AC2F369FAFC0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DD411DC1625B344663D43A81C15D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E58E0B789E3E24034ED71EFC6829F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2042FCBE8513A47388956891FCBC3FC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440372E584AEAD6915682C07A8A4AD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171251633B91C5726E0433D1C13A4150 /* Pods_fixl.framework */,
+				3D9F414A771FCF02063A50049992B98F /* Pods_fixl_fixlUITests.framework */,
+				D536CBB287EC03949D36CD6DCA7A6862 /* Pods_fixlTests.framework */,
+				E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */,
+				4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */,
+				65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B7F038B8B79CE33250BE0E206F0BEA /* Pods-fixl-fixlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758E47356EA8EB56C0171D03AAEC8628 /* Pods-fixl-fixlUITests.modulemap */,
+				B0B6E1D62A6433687A0EE6C4F44EBD28 /* Pods-fixl-fixlUITests-acknowledgements.markdown */,
+				8BD0F96BC7DDA6E823320A4DEB16AF41 /* Pods-fixl-fixlUITests-acknowledgements.plist */,
+				A0246A1DCD8E13F096345FD88B97650A /* Pods-fixl-fixlUITests-dummy.m */,
+				F4DD5FCAE9718E6BB0C9B8E7DBDBEBEB /* Pods-fixl-fixlUITests-frameworks.sh */,
+				D1F9BA61E2ABD9F480F6C0FE989282FA /* Pods-fixl-fixlUITests-Info.plist */,
+				D65591362284C1CC5218D8A825592549 /* Pods-fixl-fixlUITests-umbrella.h */,
+				5E88032CF4EA7566DD540BC8786199CC /* Pods-fixl-fixlUITests.debug.xcconfig */,
+				7B0D03EF76328D4997D77C175B7B8DBE /* Pods-fixl-fixlUITests.release.xcconfig */,
+			);
+			name = "Pods-fixl-fixlUITests";
+			path = "Target Support Files/Pods-fixl-fixlUITests";
+			sourceTree = "<group>";
+		};
+		5695A808F2B4FE6BBE2801A3364307F8 /* Pods-fixlTests */ = {
+			isa = PBXGroup;
+			children = (
+				06DA5B499FEB55421849B4CCBCEB6020 /* Pods-fixlTests.modulemap */,
+				9EF57543768A224F5FFA068F8D07FAB1 /* Pods-fixlTests-acknowledgements.markdown */,
+				FAE6C519C2DEAF749CE480326E71F0AD /* Pods-fixlTests-acknowledgements.plist */,
+				A2F86BB1723803CC03259E8FD4D558F5 /* Pods-fixlTests-dummy.m */,
+				A08C8BEC97FE6DF7A6476AA06531C59C /* Pods-fixlTests-Info.plist */,
+				9E113DA9CD030AAB685B5119AFD4D427 /* Pods-fixlTests-umbrella.h */,
+				E59A0ECE5EBE50A0565FAEAF30690B92 /* Pods-fixlTests.debug.xcconfig */,
+				218886EBD0936B6846AACA7EDFA32349 /* Pods-fixlTests.release.xcconfig */,
+			);
+			name = "Pods-fixlTests";
+			path = "Target Support Files/Pods-fixlTests";
+			sourceTree = "<group>";
+		};
+		78985911B5AA1DF9CDEBAB052416EB8F /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1A767A71E4036A0BAEB3B9AD09AB4430 /* SwipeableTabBarController.swift */,
+				AB5B64749C898EC209A80E0925E1D069 /* SwipeAnimationType.swift */,
+				0533135206F1345D268E386E80C0909F /* SwipeInteractor.swift */,
+				2821C639FAD195859AEC8BCCDDCC00C0 /* SwipeTransitionAnimator.swift */,
+				2D304F987CE92105C00EF34A4F627DD6 /* SwipeTransitioningProtocol.swift */,
+				1AB68876546CDF5F69D7F06F6A1E4500 /* UIKit+Extensions.swift */,
+				DD842E4AEBE6BAEBAE94578748EA68E2 /* Support Files */,
+			);
+			path = SwipeableTabBarController;
+			sourceTree = "<group>";
+		};
+		9D0E7C455308ADFCB131C39C0D7B97B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F95C00BAEBCB72EC3325088F84287370 /* confetti.png */,
+				6FE4F00E96ED6D9E496971E8D28940DF /* diamond.png */,
+				E2B24BB4FDAAEB4DB04F30719B981CF1 /* star.png */,
+				ED83722DEF35A37581C0A799440BD0D1 /* triangle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF2367155043A4389CE241A2FFD4ADCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE0168FD374EB20732E405B624A6EC /* Pods-fixl */,
+				50B7F038B8B79CE33250BE0E206F0BEA /* Pods-fixl-fixlUITests */,
+				5695A808F2B4FE6BBE2801A3364307F8 /* Pods-fixlTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA4D3EBD45175D7A674F74635D6E3F8F /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE7A06D13A9BB59D4D23CA102081EE /* SAConfettiView.swift */,
+				9D0E7C455308ADFCB131C39C0D7B97B5 /* Resources */,
+				BA838EF1F12601D99BF5CDFE97BAB3F6 /* Support Files */,
+			);
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+		BA838EF1F12601D99BF5CDFE97BAB3F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3E1CC444AAB7C9A422B8E5F9A48C9 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */,
+				4FB6A3B074EBF09F9A748BF35BFEC4FA /* SAConfettiView.modulemap */,
+				005D103CDD651D0B2F1D80D6EFF7CE69 /* SAConfettiView-dummy.m */,
+				FA7FD394E3F779766A861E751EDF58A1 /* SAConfettiView-Info.plist */,
+				3595B13205F0FE5761C13B998557EB4E /* SAConfettiView-prefix.pch */,
+				AEF9D8A4770346FF5C8595C7DC3133D0 /* SAConfettiView-umbrella.h */,
+				A07EF8079328F418F52F4BAECDCAC9C4 /* SAConfettiView.debug.xcconfig */,
+				8EAD0E119AE94F4BCCEBE717B2229F26 /* SAConfettiView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAConfettiView";
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3EE0168FD374EB20732E405B624A6EC /* Pods-fixl */ = {
+			isa = PBXGroup;
+			children = (
+				ADF705FFEF6AA0759E753C00068BAD9F /* Pods-fixl.modulemap */,
+				BA931F2C279DA0E00322774FAE8E06A5 /* Pods-fixl-acknowledgements.markdown */,
+				507EC71F97237BCA79933263B07DFC22 /* Pods-fixl-acknowledgements.plist */,
+				132C501CA53FDC64D82412796F608E3B /* Pods-fixl-dummy.m */,
+				BCF2A0F19099BCAFE5006DBBBD5505B2 /* Pods-fixl-frameworks.sh */,
+				E1DACAA3CD241B50FDD7A5F157271F14 /* Pods-fixl-Info.plist */,
+				46599C68C79C8970FBB2D330369F5A1D /* Pods-fixl-umbrella.h */,
+				2419519A3CBDFDE5F3CD6F9BEFBB9A29 /* Pods-fixl.debug.xcconfig */,
+				3567B91538647D333AAC70171B5A0E1A /* Pods-fixl.release.xcconfig */,
+			);
+			name = "Pods-fixl";
+			path = "Target Support Files/Pods-fixl";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E41A670E90D75E2B8A720C58DEA2C413 /* Pods */,
+				440372E584AEAD6915682C07A8A4AD6A /* Products */,
+				AF2367155043A4389CE241A2FFD4ADCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD842E4AEBE6BAEBAE94578748EA68E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA8EBCC04279D0DB1BE34137064CBE6 /* SwipeableTabBarController.modulemap */,
+				752448D5F6477E9717143280A20BA7A7 /* SwipeableTabBarController-dummy.m */,
+				59B9FB2175B85C491A10302F6EA59DAC /* SwipeableTabBarController-Info.plist */,
+				3D7F5FF29D50C24874AE0014BAF6A6A0 /* SwipeableTabBarController-prefix.pch */,
+				7FABE0FCDDA69E7867F9DFEB9E6FEBDB /* SwipeableTabBarController-umbrella.h */,
+				39CCAF62C4A7A04AB62904EA44C2008F /* SwipeableTabBarController.debug.xcconfig */,
+				2FFC314EC9BF0FC7D1BDE3E34E6EE2ED /* SwipeableTabBarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeableTabBarController";
+			sourceTree = "<group>";
+		};
+		E41A670E90D75E2B8A720C58DEA2C413 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D3EBD45175D7A674F74635D6E3F8F /* SAConfettiView */,
+				78985911B5AA1DF9CDEBAB052416EB8F /* SwipeableTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2790B286FA751B89660AB880431B6EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB189029E6C824F02161A3AD9ACFB65 /* Pods-fixlTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84328E4206F90166765340C02ED6C0FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8617B911AE350986CD115D328EBD69C /* SAConfettiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C59F06087E33542B3DD0D7DCEF588E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314718876C281FAF353F545EC535F8F1 /* SwipeableTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98D3454075EDF9AE0CBD0225DABD491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6687AED2D90C11ABD347E79B615295 /* Pods-fixl-fixlUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7E719FEAFFAA2C0BCF4ED374FC0A8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC140E7D98CB2C000C5CBF5A844EF7E9 /* Pods-fixl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08FC3EABC923CF523A32E299C1BB8DD /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
+			buildPhases = (
+				18DC88AB1CF41A97684AE8302F5A2A4D /* Sources */,
+				49DD411DC1625B344663D43A81C15D17 /* Frameworks */,
+				70E3261F6EE119A0497B87A04AE65779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAConfettiView-SAConfettiView";
+			productName = "SAConfettiView-SAConfettiView";
+			productReference = E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3CD2985EC5826C32DE2E7CBE62FB81ED /* SwipeableTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D390677976E50C06A225290B486C2F0 /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */;
+			buildPhases = (
+				9C59F06087E33542B3DD0D7DCEF588E7 /* Headers */,
+				529A58483395B7C0A4D60B9FBCCAB4EC /* Sources */,
+				09B81CDE76191C834662505FE81A34E2 /* Frameworks */,
+				E63E0922028368AA411D27B22BF93A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeableTabBarController;
+			productName = SwipeableTabBarController;
+			productReference = 65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		798B2BBA37C542BED78454C69AD76988 /* Pods-fixlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AA0AE0D0534440F7C9B90B04049E25 /* Build configuration list for PBXNativeTarget "Pods-fixlTests" */;
+			buildPhases = (
+				2790B286FA751B89660AB880431B6EED /* Headers */,
+				A5B8E4C1C431D09DAEE186355213F4F7 /* Sources */,
+				3A34EB5AA5E6A5F6790F9DE580E6C031 /* Frameworks */,
+				128A6667F794CDB0849215B93F9439AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC69D4BA8121369571CDC5731F9FB39 /* PBXTargetDependency */,
+			);
+			name = "Pods-fixlTests";
+			productName = "Pods-fixlTests";
+			productReference = D536CBB287EC03949D36CD6DCA7A6862 /* Pods_fixlTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5A3702219033C57A2835F34B1512701 /* Pods-fixl-fixlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA8AFB907A82AFB7297AD8B61E50EF1 /* Build configuration list for PBXNativeTarget "Pods-fixl-fixlUITests" */;
+			buildPhases = (
+				A98D3454075EDF9AE0CBD0225DABD491 /* Headers */,
+				96F8E8EF4158DFE3DB32F47E4C3CDF15 /* Sources */,
+				89E58E0B789E3E24034ED71EFC6829F7 /* Frameworks */,
+				96ED947751B42F1E9482C4FFAF9984C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				156B6A6CE3448E93DB7E742261A21F57 /* PBXTargetDependency */,
+				E1AE0D654485B8D1C1102D105B42E034 /* PBXTargetDependency */,
+			);
+			name = "Pods-fixl-fixlUITests";
+			productName = "Pods-fixl-fixlUITests";
+			productReference = 3D9F414A771FCF02063A50049992B98F /* Pods_fixl_fixlUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA499FCEDEBE8979ED4FEC6BCFAB1ABD /* Pods-fixl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D319142586B902027F18DE6BDA291B /* Build configuration list for PBXNativeTarget "Pods-fixl" */;
+			buildPhases = (
+				AF7E719FEAFFAA2C0BCF4ED374FC0A8A /* Headers */,
+				1F3E55032F38D81EC362EFBF005ADBB1 /* Sources */,
+				029419137D4DC533291392F742B40C7B /* Frameworks */,
+				A4F0C5E5428B5DA3C87AC9CAF3D6BACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696774D5F24334C81EE9BB77504EC004 /* PBXTargetDependency */,
+				F8D0020B3FCDAF747CA602DCB49B680F /* PBXTargetDependency */,
+			);
+			name = "Pods-fixl";
+			productName = "Pods-fixl";
+			productReference = 171251633B91C5726E0433D1C13A4150 /* Pods_fixl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7FD801DDF40A55A66A41D9997C32CE /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildPhases = (
+				84328E4206F90166765340C02ED6C0FD /* Headers */,
+				EC8D63BDE57DCA5749BBD6E504B86E87 /* Sources */,
+				44C960AE1FF7DAAA0835732B58EE448D /* Frameworks */,
+				B6B51ED5B8E11F603E2E5554677E4BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B1272A325D7E31B9254744A630CAB7 /* PBXTargetDependency */,
+			);
+			name = SAConfettiView;
+			productName = SAConfettiView;
+			productReference = 4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 440372E584AEAD6915682C07A8A4AD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA499FCEDEBE8979ED4FEC6BCFAB1ABD /* Pods-fixl */,
+				D5A3702219033C57A2835F34B1512701 /* Pods-fixl-fixlUITests */,
+				798B2BBA37C542BED78454C69AD76988 /* Pods-fixlTests */,
+				DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */,
+				1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */,
+				3CD2985EC5826C32DE2E7CBE62FB81ED /* SwipeableTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128A6667F794CDB0849215B93F9439AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E3261F6EE119A0497B87A04AE65779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3348D74A7EC3F9236DFE576AE8CF92 /* confetti.png in Resources */,
+				65FE344CF109E88FA712681AAEEB7C75 /* diamond.png in Resources */,
+				8BFB79A61072A8FCCA1207D3282F2606 /* star.png in Resources */,
+				EAEDC21885FBB482FC6217CF5DFB25B3 /* triangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED947751B42F1E9482C4FFAF9984C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0C5E5428B5DA3C87AC9CAF3D6BACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B51ED5B8E11F603E2E5554677E4BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55265C877D73F6B1D022794340DC9D6 /* SAConfettiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63E0922028368AA411D27B22BF93A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DC88AB1CF41A97684AE8302F5A2A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3E55032F38D81EC362EFBF005ADBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9043176B9918CD3EFB6E0E0CA7524 /* Pods-fixl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529A58483395B7C0A4D60B9FBCCAB4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6877147AD76F213C49FB9BB7AC02239 /* SwipeableTabBarController-dummy.m in Sources */,
+				9789B01750E99FB0756376671EF9FE1D /* SwipeableTabBarController.swift in Sources */,
+				48EAB01169E1E2F21FBA206888319CD9 /* SwipeAnimationType.swift in Sources */,
+				8855A0B15EF99844D8E46609BA8B23C7 /* SwipeInteractor.swift in Sources */,
+				599E64DC5C1413BD9B9A47B23BD1CDBA /* SwipeTransitionAnimator.swift in Sources */,
+				BAEBAD31DD47CC8BF99ED4766D7F2BC2 /* SwipeTransitioningProtocol.swift in Sources */,
+				5F70B73D82CEAB75E72FF7C46A630202 /* UIKit+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F8E8EF4158DFE3DB32F47E4C3CDF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8255E1C49ADE47D4E0469F1A55DE30C2 /* Pods-fixl-fixlUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8E4C1C431D09DAEE186355213F4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6516D3810E8DBE43B939C2B1A79E5514 /* Pods-fixlTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D63BDE57DCA5749BBD6E504B86E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B09B44A046D5700C1BCBF4E4F237DFD /* SAConfettiView-dummy.m in Sources */,
+				BC82831E158BED1EAD6B2A5A322754C3 /* SAConfettiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		156B6A6CE3448E93DB7E742261A21F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAConfettiView;
+			target = DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */;
+			targetProxy = E954199A01014E026F70ACDE6E5420BB /* PBXContainerItemProxy */;
+		};
+		55B1272A325D7E31B9254744A630CAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAConfettiView-SAConfettiView";
+			target = 1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */;
+			targetProxy = A27AD697FC1C902B9C90216BDB407C9F /* PBXContainerItemProxy */;
+		};
+		5CC69D4BA8121369571CDC5731F9FB39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-fixl";
+			target = DA499FCEDEBE8979ED4FEC6BCFAB1ABD /* Pods-fixl */;
+			targetProxy = 31E55A8974CD60477042AB9F3FF88DBE /* PBXContainerItemProxy */;
+		};
+		696774D5F24334C81EE9BB77504EC004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAConfettiView;
+			target = DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */;
+			targetProxy = F2BE555CD6A02068CFDF7DCE9EFE19B1 /* PBXContainerItemProxy */;
+		};
+		E1AE0D654485B8D1C1102D105B42E034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeableTabBarController;
+			target = 3CD2985EC5826C32DE2E7CBE62FB81ED /* SwipeableTabBarController */;
+			targetProxy = 53154D5BB3C534B773B8523FC14DADF4 /* PBXContainerItemProxy */;
+		};
+		F8D0020B3FCDAF747CA602DCB49B680F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeableTabBarController;
+			target = 3CD2985EC5826C32DE2E7CBE62FB81ED /* SwipeableTabBarController */;
+			targetProxy = BB6609CA2465D774D6E1691D4A2BA4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		35057AEB647607F3B8D70807F47C4DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2419519A3CBDFDE5F3CD6F9BEFBB9A29 /* Pods-fixl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixl/Pods-fixl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixl/Pods-fixl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		363D16E16302C6DD55E01DE44F6422C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59A0ECE5EBE50A0565FAEAF30690B92 /* Pods-fixlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixlTests/Pods-fixlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixlTests/Pods-fixlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49E750077C91DD11A571D304E7D63B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFC314EC9BF0FC7D1BDE3E34E6EE2ED /* SwipeableTabBarController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880E31ACAC5507FF1D5055AA0344A388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0D03EF76328D4997D77C175B7B8DBE /* Pods-fixl-fixlUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixl-fixlUITests/Pods-fixl-fixlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixl-fixlUITests/Pods-fixl-fixlUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE3C6B80D7EEFC080168B96E8E91C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAD0E119AE94F4BCCEBE717B2229F26 /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AF24D69B3FBB7657E855354AEACF805A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E88032CF4EA7566DD540BC8786199CC /* Pods-fixl-fixlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixl-fixlUITests/Pods-fixl-fixlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixl-fixlUITests/Pods-fixl-fixlUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B909518B20DF7D913181A138DA80070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07EF8079328F418F52F4BAECDCAC9C4 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E42D7704481545C649CB710174935995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07EF8079328F418F52F4BAECDCAC9C4 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/SAConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F84F4755EA690D03FD24B52E532CAB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CCAF62C4A7A04AB62904EA44C2008F /* SwipeableTabBarController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA6E7F29CEA2C6245C0F88729D8CE00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAD0E119AE94F4BCCEBE717B2229F26 /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/SAConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB4C7CE6893D43B0B7D774D71869BCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218886EBD0936B6846AACA7EDFA32349 /* Pods-fixlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixlTests/Pods-fixlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixlTests/Pods-fixlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD401ED7AE756868BFF4827B984FAD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3567B91538647D333AAC70171B5A0E1A /* Pods-fixl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixl/Pods-fixl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixl/Pods-fixl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AA0AE0D0534440F7C9B90B04049E25 /* Build configuration list for PBXNativeTarget "Pods-fixlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363D16E16302C6DD55E01DE44F6422C9 /* Debug */,
+				FB4C7CE6893D43B0B7D774D71869BCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA8AFB907A82AFB7297AD8B61E50EF1 /* Build configuration list for PBXNativeTarget "Pods-fixl-fixlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF24D69B3FBB7657E855354AEACF805A /* Debug */,
+				880E31ACAC5507FF1D5055AA0344A388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D319142586B902027F18DE6BDA291B /* Build configuration list for PBXNativeTarget "Pods-fixl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35057AEB647607F3B8D70807F47C4DA1 /* Debug */,
+				FD401ED7AE756868BFF4827B984FAD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7FD801DDF40A55A66A41D9997C32CE /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42D7704481545C649CB710174935995 /* Debug */,
+				FA6E7F29CEA2C6245C0F88729D8CE00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D390677976E50C06A225290B486C2F0 /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84F4755EA690D03FD24B52E532CAB1A /* Debug */,
+				49E750077C91DD11A571D304E7D63B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08FC3EABC923CF523A32E299C1BB8DD /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909518B20DF7D913181A138DA80070D /* Debug */,
+				8DE3C6B80D7EEFC080168B96E8E91C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
